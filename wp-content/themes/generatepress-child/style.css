@@ -4,54 +4,52 @@ Description: 	generatepress child
 Template: 	generatepress
 */
 
-.is-right-sidebar{
+.home .is-right-sidebar{
 	display:none !important;
 }
 
-.site .site-content .content-area{
+.home .site .site-content .content-area{
 	width:100%;
 }
 
-.container.grid-container{
+.home .container.grid-container{
 	max-width:100%;
 	margin-left:0;
 	margin-right:0;
 }
 
-.separate-containers.right-sidebar .site-main{
+.home .separate-containers.right-sidebar .site-main{
 	margin:0;
 }
 
-.separate-containers .inside-article{
-	padding:0;
+.home .grid-container .inside-article{
+	padding:0 !important;
 }
 
-.elementor-element{
+.home .elementor-element{
 	width:100%;
 }
 
-.elementor-section.elementor-section-boxed > .elementor-container{
+.home .elementor-section.elementor-section-boxed > .elementor-container{
 	max-width: 93% !important;
 	margin:auto;
 	height:100%;
 	align-items:center;
 }
 
-.contenair-banner{
-	height:82vh;
+.home .contenair-banner{
+	height:88vh;
 	background-image: url("/wp-content/uploads/2023/07/Gray-sofa-using-macbook-1.png");
 	background-size:cover;
 	background-position:bottom;
 	background-repeat:no-repeat;
 }
 
-.inside-header {
+.home .inside-header {
     padding: 10px 55px;
 }
 
-.main-navigation .main-nav ul li a{
-	
-}
+
 
 #button-readMore .elementor-button{
 	border-radius:0;
@@ -62,22 +60,22 @@ Template: 	generatepress
 	background:#fff;
 }
 
-#menu-main-menu .button-subscribe a{
+.home #menu-main-menu .button-subscribe a{
 	color:#232536 !important;
 	 height: 46px;
     line-height: 45px;
 	font-weight:bold;
 }
 
-#menu-main-menu .button-subscribe:hover{
+.home #menu-main-menu .button-subscribe:hover{
 	 background:#ffd050;
 }
 
-#menu-main-menu .button-subscribe:hover #menu-main-menu .button-subscribe a{
+.home #menu-main-menu .button-subscribe:hover #menu-main-menu .button-subscribe a{
 	color:#fff !important;
 }
 
-.main-navigation .main-nav>ul{
+.home .main-navigation .main-nav>ul{
 	gap:20px;
 }
 
