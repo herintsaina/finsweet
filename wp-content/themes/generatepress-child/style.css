@@ -83,3 +83,14 @@ body{
 	font-family:"Inter" !important;
 }
 
+.image-featured img {
+	width:100%;
+}
+
+.separate-containers .site-main {
+	margin:0;
+}
+
+.home strong .elementor-section.elementor-section-boxed > .elementor-container{
+	align-items:flex-start;
+}
